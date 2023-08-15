@@ -60,6 +60,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'socialmediaclone'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_89FC0AD9CFDD45428A7C8212E2AE75E0 }}
           package: .
