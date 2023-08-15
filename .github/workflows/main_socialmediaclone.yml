@@ -50,7 +50,7 @@ jobs:
           name: node-app
           
       - name: Create folder
-        run: mkdir -p **/Server
+        run: mkdir -p ParentFolder/Server
           
       - name: Unzip artifact for deployment
         run: unzip release.zip
